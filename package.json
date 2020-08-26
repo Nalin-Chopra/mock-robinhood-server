@@ -1,0 +1,29 @@
+{
+  "name": "mock-robinhood-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nalin-Chopra/mock-robinhood-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nalin-Chopra/mock-robinhood-server/issues"
+  },
+  "homepage": "https://github.com/Nalin-Chopra/mock-robinhood-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
